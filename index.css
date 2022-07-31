@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: slategray;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1.jfif);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black ;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 169, 175);
+   
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: slategrey;
+    background-color: transparent;
+
+}
+
+.form h2{
+    font-size: 50px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.box{
+    padding: 15px;
+    width: 170%;
+    margin: 30px;
+    border-radius: 10px;
+    border: 4px black;
+    outline: none;
+    height: 50px;
+    
+}
+
+.btn{
+    height: 40px;
+    width: 170%;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    font-size: larger;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+.forget{
+    display: flex;
+    justify-content: center;
+    padding-right:10px;
+    margin: 15px;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+
+p{
+    padding-right: 20px;
+}
+ 
+.SignUp{
+    font-size: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.SignUp:hover{
+cursor: pointer;
+background-color: aliceblue;
+}
